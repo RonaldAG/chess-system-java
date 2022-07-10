@@ -9,6 +9,8 @@ import chess.ChessException;
 import chess.ChessMatch;
 import chess.ChessPiece;
 import chess.ChessPosition;
+import chess.Color;
+import chess.pieces.King;
 
 public class Program {
 
@@ -17,7 +19,7 @@ public class Program {
 		ChessMatch chessMatch = new ChessMatch();
 		List<ChessPiece> captured = new ArrayList<>();
 		
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);		
 		
 		while(!chessMatch.getCheckMate()) {
 			try {
