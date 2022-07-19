@@ -1,5 +1,6 @@
 # Chess system
-
+<hr>
+   <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=RED&style=for-the-badge"/>
 
 ## Descrição do projeto
 <p align="justify">
